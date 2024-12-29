@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href= "abr.png" type="image/x-icon"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">         
+        <link rel="stylesheet" href="orderstyle.css">
+    </head>
+    <body>
+        <div class="bar">
+                <a href="" class="navl"><i class="bi bi-list-ul"></i></a>
+                <a href="order.html" class="navo">MENU</a>
+                <a href="login.html" class="navlog">LOGIN</i></a>
+                <a href="home.html" class="logo"><img class="logo" src="logo.png"></a>
+             </div>    
+             
+        </div>
+        <h1>MENU</h1>
+        <br><h2>Coffee<hr></h2><br>
+        <div class="drinks">
+            <div class="menu1">
+                <img src="cm.jpg" alt="Caffè macchiato">
+                <p>Caffè macchiato</p>
+                <i class="bi bi-cart-check add-cart" data-item="Caffè macchiato" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="ame.jpg" alt="Caffè macchiato">
+                <p>Americano</p>
+                <i class="bi bi-cart-check add-cart" data-item="Americano" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="Latte.jpg" alt="Caffè macchiato">
+                <p>Latte</p>
+                <i class="bi bi-cart-check add-cart" data-item="Latte" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="esp.jpeg" alt="Caffè macchiato">
+                <p>Espresso</p>
+                <i class="bi bi-cart-check add-cart" data-item="Espresso" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="fw.jpg" alt="Caffè macchiato">
+                <p>Flat white</p>
+                <i class="bi bi-cart-check add-cart" data-item="Flat white" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="cmocha.jpg" alt="Caffè macchiato">
+                <p>Caffè mocha</p>
+                <i class="bi bi-cart-check add-cart" data-item="Caffè mocha" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="cortado.jpg" alt="Caffè macchiato">
+                <p>Cortado</p>
+                <i class="bi bi-cart-check add-cart" data-item="Cortado" data-price="5"></i>
+            </div>
+        </div> 
+        <br> <h2>Specials<hr></h2>
+        <div class="Specials">  
+            <div class="menu1">
+                <img src="ice.jpg" alt="Caffè macchiato">
+                <p>Iced coffee</p>
+                <i class="bi bi-cart-check add-cart" data-item="Iced coffee" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="ps.jpg" alt="Caffè macchiato">
+                <p>Pumpkin spice</p>
+                <i class="bi bi-cart-check add-cart" data-item="Pumpkin spice" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="aff.jpg" alt="Caffè macchiato">
+                <p>Affogato</p>
+                <i class="bi bi-cart-check add-cart" data-item="Affogato" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="boba.jpeg" alt="Caffè macchiato">
+                <p>Bubble tea</p>
+                <i class="bi bi-cart-check add-cart" data-item="Bubble tea" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="exc.jpg" alt="Caffè macchiato">
+                <p>Excelsa Coffee</p>
+                <i class="bi bi-cart-check add-cart" data-item="Excelsa Coffee" data-price="5"></i>
+            </div>
+        </div>  
+        <h2>Food<hr></h2>
+        <div class="food">
+            <div class="menu1">
+                <img src="bag.jpg" alt="Caffè macchiato">
+                <p>Bagels</p>
+                <i class="bi bi-cart-check add-cart" data-item="Bagels" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="do.jpg" alt="Caffè macchiato">
+                <p>Donuts</p>
+                <i class="bi bi-cart-check add-cart" data-item="Donuts" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="cp.jpg" alt="Caffè macchiato">
+                <p>Cupcakes</p>
+                <i class="bi bi-cart-check add-cart" data-item="Cupcakes" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="muf.jpeg" alt="Caffè macchiato">
+                <p>Muffins</p>
+                <i class="bi bi-cart-check add-cart" data-item="Muffins" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="sam.jpeg" alt="Caffè macchiato">
+                <p>Samosa</p>
+                <i class="bi bi-cart-check add-cart" data-item="Samosa" data-price="5"></i>
+            </div>
+            <div class="menu1">
+                <img src="mac.jpg" alt="Caffè macchiato">
+                <p>Macaron</p>
+                <i class="bi bi-cart-check add-cart" data-item="Macaron" data-price="5"></i>
+            </div>
+        </div>
+                <h2>Bill<hr></h2>
+        <!--from here chatgpt cause notime-->
+        <div class="bill"> 
+
+                <ul id="bill-items"></ul>    
+                <p id="total">Total: $0.00</p>
+                <a id="pay-link" class="navlog">
+                    <button type="button" class="btn">PAY</button>
+                </a>                
+        </div>
+        <div class="end">
+            
+            <img src="logo.png">
+            <p>SAIDU DINESH SAI SRI HARI
+            </p>
+        </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select all "add to cart" icons
+            const cartIcons = document.querySelectorAll('.add-cart');
+            const billItems = document.getElementById('bill-items');
+            const totalElement = document.getElementById('total'); // Element to display total price
+            let totalPrice = 0; // To keep track of the total price
+        
+            cartIcons.forEach(icon => {
+                icon.addEventListener('click', () => {
+                    // Get the item name and price from data attributes
+                    const itemName = icon.getAttribute('data-item');
+                    const itemPrice = parseFloat(icon.getAttribute('data-price'));
+        
+                    // Check if the item is already in the bill
+                    if (!Array.from(billItems.children).some(li => li.textContent.includes(itemName))) {
+                        // Create a list item for the bill
+                        const li = document.createElement('li');
+                        li.textContent = `${itemName} - $${itemPrice.toFixed(2)}`;
+        
+                        // Append the item to the bill
+                        billItems.appendChild(li);
+        
+                        // Add the price to the total price
+                        totalPrice += itemPrice;
+        
+                        // Update the total price displayed
+                        totalElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
+                    } else {
+                        alert(`${itemName} is already in the bill.`);
+                    }
+                });
+            });
+        });
+        document.getElementById('pay-link').addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default link behavior
+
+        const billItems = document.querySelectorAll('#bill-items li');
+        const total = document.getElementById('total').textContent.split('$')[1]; // Extract the total amount
+
+        if (billItems.length === 0) {
+            alert("Your cart is empty!");
+            return;
+        }
+
+        // Prepare items and total for query string
+        const items = Array.from(billItems).map(item => item.textContent);
+        const params = new URLSearchParams({
+            items: JSON.stringify(items),
+            total: total
+        });
+
+        // Redirect to pay.html with data
+        window.location.href = `pay.html?${params.toString()}`;
+    });
+    </script>       
+    </body>
+    
+</html>

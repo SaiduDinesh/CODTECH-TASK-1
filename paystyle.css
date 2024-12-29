@@ -1,0 +1,11 @@
+#bill-summary, #qr-code {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+#qr-canvas {
+    margin: 20px auto;
+    display: block;
+}

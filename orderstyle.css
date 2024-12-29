@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    height: 2cm;
+    margin-left: 10cm;
+}
+.bar{
+    display: flex;
+    gap: 1cm;
+    margin-top: 1cm;
+    background-color: white;
+    width: auto;
+    align-items:center;
+    font-family: 'Baskerville old face', 'Georgia', serif;
+    font-weight: bold;
+}
+
+.navl, .navlog, .navo, .navc{
+    display: flex;
+    align-items:end;
+    padding-left: 2cm;
+    color:#13472e;
+    font-size:16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navl{
+    padding-right: 23cm;
+}
+
+.bar i{
+    font-size: 25px;
+    padding-left: 2px;
+}
+
+h1{
+    font-family: 'Baskerville old face', 'Georgia', serif;
+    font-size: 2em;
+    text-align: left;
+    font-weight: 600;
+    color: #13472e;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-top: 2cm;
+    margin-left:5cm
+}
+h2{
+    font-family: 'Baskerville old face', 'Georgia', serif;
+    font-size: 1.5em;
+    text-align: left;
+    font-weight: 600;
+    color: #13472e;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-left:5cm;
+    margin-right: 5cm;
+    margin-top: 1cm;
+}
+.drinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3cm;
+    margin-left: 10cm;
+    height: 15cm;
+    width: fit-content;
+    gap: 2cm;
+    margin-top: 0;
+}
+.menu1{
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    flex-direction: row;
+    align-items: center;
+    width:10cm;
+    gap:0.5cm;
+}
+.menu1 img{  
+    width:3cm;
+    border-radius: 1cm;
+}
+.menu1 p{
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 20px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.menu1 i{
+    font-size: 1.5em;
+}
+.Specials{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3cm;
+    margin-left: 10cm;
+    height: 15cm;
+    width: fit-content;
+    gap: 2cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+}
+.food{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3cm;
+    margin-left: 10cm;
+    height: 15cm;
+    width: fit-content;
+    gap: 2cm;
+    margin-top: 0cm;
+}
+
+.bill{    
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #13472e;
+    text-align: left;
+    letter-spacing: 2px; 
+    margin-left: 8cm;   
+}
+
+.bill button{   
+    text-align:center;
+    height: 1cm;
+    width: 5cm;
+    border-radius: 1cm;
+    background-color:#13472e;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 8cm;
+    border:0cap ;
+    margin-bottom: 2cm;
+
+}
+
+.end{
+    position: relative;
+    height: 10cm;
+    width: auto;
+    margin-top: 2cm;
+    margin-bottom: 0cm;
+    background-color: #000000;
+    color: #ffffff  ;
+}
+.end img{
+    position: absolute;
+    height: 5cm;
+    margin-left: 35cm;
+}
+
+.end p{
+    padding: 3cm;
+}

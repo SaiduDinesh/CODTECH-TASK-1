@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paystyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> <!-- QR Code Library -->
+</head>
+<body>
+    <h1>Payment</h1>
+    <div id="bill-summary">
+        <h2>Bill Summary</h2>
+        <ul id="items-list"></ul>
+        <p id="total-amount"></p>
+    </div>
+    <div id="qr-code">
+        <h2>Scan to Pay</h2>
+        <canvas id="qr-canvas"></canvas>
+    </div>
+
+    <script>
+        // Extract query parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const items = JSON.parse(urlParams.get('items') || '[]');
+        const total = urlParams.get('total') || '0.00';
+
+        // Display items and total
+        const itemsList = document.getElementById('items-list');
+        items.forEach(item => {
+            const li = document.createElement('li');
+            li.textContent = item;
+            itemsList.appendChild(li);
+        });
+        document.getElementById('total-amount').textContent = `Total: $${total}`;
+
+        // Generate QR code
+        const qr = new QRious({
+            element: document.getElementById('qr-canvas'),
+            size: 200,
+            value: `Payment for: ${items.join(', ')} | Total: $${total}`
+        });
+    </script>
+</body>
+</html>

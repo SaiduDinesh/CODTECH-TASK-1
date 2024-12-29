@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGIN PAGE</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+            body{
+                background-image: url("coffee.webp");
+                background-size: 80%;
+                background-repeat: repeat;
+
+            }
+            form{
+                margin-top:4cm;
+                margin-bottom:4cm;
+                width:12cm;
+                height: 15cm;
+                padding-top: 2.5cm;
+                padding-bottom: 50px;
+                color:rgb(0, 0, 0);
+                text-align: center;
+                font-family:'Times New Roman', Times, serif;
+                background: rgba(255, 255, 255, 0.7);
+                box-shadow: 2px 1px 30px 0 rgb(0, 0, 0);
+                backdrop-filter: blur( 8.5px );
+                border-radius: 30px;
+                border: 2px solid rgba( 255, 255, 255, 0.18 );
+
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 3em;
+                font-weight: 900;
+                color: rgb(84, 42, 14);
+            }
+            .input-box input{
+                width: 70%;
+                height: 1CM;
+                border: none;
+                border-bottom: 2px solid rgb(0, 0, 0);  
+                background: transparent ;
+            }
+            .container .remember-me {
+                font-size: 16px;
+                
+            }
+            .forgot a:hover{
+                color:rgb(255, 255, 255);   
+                font-weight: bold;
+            }
+            .botton button{
+                align-items: center;
+                background-color: rgb(84, 42, 14);
+                backdrop-filter: blur(10px);  
+                width: 30%;
+                height: 1CM;
+                border-radius: 2cm;
+                border: 0cap;
+                color: white;
+            }
+            .botton button:hover{
+                background-color: rgb(0, 0, 0);
+            }
+            .register-link a:hover{
+                color: white;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="container">
+            <center>
+          
+                <form action="home.html">
+                    <h1>LOGIN</h1><br><br>
+                    <div class="input-box">
+                        <input type="email" placeholder="USER ID/EMAIL ID" required> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg>
+                    </div><br>
+                    <div class="input-box">
+                        <input type="password" placeholder="PASSWORD" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2M5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1"/>
+                        </svg>
+                    </div><br>
+                    <div class="remember-me">
+                        <label> <input type="checkbox" >Remember me </label> 
+                    </div> 
+                    <div class="botton">
+                        <button type="submit" class="btn">Login</button>                 
+                        </div><br>
+                    <div class="forgot">
+                        <a href="forgot password.html">Forgot password</a>
+                    </div>
+                    <br>
+                
+                    <div class="register-link">
+                        <p>Don't have a account
+                        <a href="sign.html">Sign in</a></p>
+                    </div>
+                 </form>  
+        
+          </center>
+    
+        </div>
+    
+</body>
+</html>

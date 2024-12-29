@@ -119,7 +119,6 @@
             </div>
         </div>
                 <h2>Bill<hr></h2>
-        <!--from here chatgpt cause notime-->
         <div class="bill"> 
 
                 <ul id="bill-items"></ul>    
@@ -136,31 +135,24 @@
         </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Select all "add to cart" icons
             const cartIcons = document.querySelectorAll('.add-cart');
             const billItems = document.getElementById('bill-items');
-            const totalElement = document.getElementById('total'); // Element to display total price
-            let totalPrice = 0; // To keep track of the total price
+            const totalElement = document.getElementById('total');
+            let totalPrice = 0; 
         
             cartIcons.forEach(icon => {
                 icon.addEventListener('click', () => {
-                    // Get the item name and price from data attributes
                     const itemName = icon.getAttribute('data-item');
                     const itemPrice = parseFloat(icon.getAttribute('data-price'));
         
-                    // Check if the item is already in the bill
                     if (!Array.from(billItems.children).some(li => li.textContent.includes(itemName))) {
-                        // Create a list item for the bill
                         const li = document.createElement('li');
                         li.textContent = `${itemName} - $${itemPrice.toFixed(2)}`;
         
-                        // Append the item to the bill
                         billItems.appendChild(li);
         
-                        // Add the price to the total price
                         totalPrice += itemPrice;
         
-                        // Update the total price displayed
                         totalElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
                     } else {
                         alert(`${itemName} is already in the bill.`);
@@ -169,24 +161,22 @@
             });
         });
         document.getElementById('pay-link').addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default link behavior
-
+        e.preventDefault(); 
         const billItems = document.querySelectorAll('#bill-items li');
-        const total = document.getElementById('total').textContent.split('$')[1]; // Extract the total amount
-
+        const total = document.getElementById('total').textContent.split('$')[1];
         if (billItems.length === 0) {
             alert("Your cart is empty!");
             return;
         }
 
-        // Prepare items and total for query string
+
         const items = Array.from(billItems).map(item => item.textContent);
         const params = new URLSearchParams({
             items: JSON.stringify(items),
             total: total
         });
 
-        // Redirect to pay.html with data
+  
         window.location.href = `pay.html?${params.toString()}`;
     });
     </script>       

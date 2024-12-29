@@ -24,7 +24,7 @@ Remove Items: If you change your mind, you can easily remove items from the cart
 4. Payment Flow
 Simple Checkout: Once you're ready, just hit the "PAY" button to proceed.
 Data Transfer: When you click "PAY," the details of your order, including the items and total, are sent to the payment page, where you can review and finalize the transaction.
-5. Additional Features
+5. Additional Features  
 Responsive Design: The website layout adapts beautifully to any screen size, ensuring a great experience on both desktop and mobile.
 Cart Icons: Interactive icons, like the cart checkmarks, make it clear which items you've added.
 User-Friendly Alerts: If an item is already in your cart, you’ll receive an alert to avoid duplication.

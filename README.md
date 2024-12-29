@@ -4,7 +4,7 @@ Intern ID: CT12EOS
 Domain: Full Stack Web Development
 Duration: December 17th, 2024 to February 17th, 2025
 
-Overview of the project: E-COMMERCE PLATFORM
+Overview of the project: E-COMMERCE PLATFORM 
 
 This website is designed to offer an engaging and seamless online ordering experience for coffee, specialty drinks, and food items. With a clean, modern design and a responsive layout, it’s optimized for both desktop and mobile users, providing easy navigation and smooth interactions. Here’s a closer look at the key features:
 

@@ -1,3 +1,4 @@
+# TASK 1
 Name: Saidu Dinesh Sai Srihari
 
 Company: CODTECH IT SOLUTIONS
@@ -50,3 +51,13 @@ Why I Built It
 This project was an excellent opportunity to bridge the gap between design and functionality while solving a real-world problem: creating an engaging, user-centric coffee shop experience online. It challenged me to think about user flow, interface design, and implementing interactive features effectively.
 
 This project reflects my passion for creating meaningful web applications and my commitment to continuous learning in the field of software development. I hope this inspires others to explore the endless possibilities of combining creativity and code.
+
+
+# output
+![Screenshot 2024-12-30 223104](https://github.com/user-attachments/assets/b4effb97-2310-4b46-b27b-4d7a5f6b6464)
+
+![Screenshot 2024-12-30 223112](https://github.com/user-attachments/assets/b78272a8-f91e-4452-8fcf-c46a0ec2ab2b)
+![Screenshot 2024-12-30 223124](https://github.com/user-attachments/assets/ad127a87-d4ca-4ecc-a9e0-0c8e24a2edfb)
+![Screenshot 2024-12-30 223142](https://github.com/user-attachments/assets/803d999c-455c-49ef-bbf8-7dee3efe1599)
+![Screenshot 2024-12-30 223152](https://github.com/user-attachments/assets/82ec0819-4d78-4c54-98a1-7a99fc524a55)
+![Screenshot 2024-12-30 223201](https://github.com/user-attachments/assets/dceadcea-6f7a-439d-b691-9bdbbc07ed2e)
